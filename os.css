@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #323232;
+    width: 100%;
+    height: 100%;
+    background-image: url(SUSP.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 100px;
+    background-size: 600px;
+}
+
+#cabeca {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    /* background-color: steelblue; */
+}
+
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1px;
+    width: 50px;
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+#pesquisa {
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    color: beige;
+    text-decoration: none;
+    text-transform: none;
+}
+
+#buscar {
+    color: black;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    margin-right: 10px;
+}
+
+input {
+    background-color: aliceblue;
+    color: black;
+    width: 260px;
+    height: 25px;
+    place-content: center;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    outline: 0;
+    text-align: center;
+    
+}
+
+#listas {
+    /* background-color: aquamarine; */
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    
+}
+
+#lista-anos {
+    /* background-color: aquamarine; */
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin-left: 20%;
+    margin-top: 5%;
+    
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+li {
+    
+    width: 1000px;
+    margin: 5px;
+    background-color: rgba(128, 128, 128, 0.568);
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: none;
+    color: beige;
+    font-weight: bolder;
+    text-align: left;
+    list-style-type: none;
+    margin-left: -45%;
+}
+
+#realizado {
+    background-color: rgba(0, 128, 0, 0.568);
+}
+
+a {
+  display: inline-block;
+  width: 50px;
+  text-decoration: none;
+}

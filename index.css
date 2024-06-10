@@ -1,0 +1,46 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body {
+    background-color: #323232;
+    width: 100%;
+    height: 100%;
+    background-image: url(SUSP.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 100px;
+    background-size: 600px;
+}
+
+#cabeca {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    /* background-color: steelblue; */
+}
+
+#os {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1px;
+    width: 150px;
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 5px;
+}
